@@ -8,11 +8,7 @@ const (
 )
 
 func (d Digit) Boolean() bool {
-	if d == One {
-		return true
-	}
-
-	return false
+	return d == One
 }
 
 func OR(p, q Digit) Digit {
